@@ -12,8 +12,8 @@ This project demonstrates various design patterns written in Java.
 - **Java 21** - The primary programming language.
 - **Spring Boot 3.3.5** - For dependency management, configuration, and application setup.
 - **Maven** - For project build and dependency management.
-- **Data Jpa** - for DB interaction.
-- **Postgres** - as relational database management system.
+- **Data Jpa** - For DB interaction.
+- **Postgres** - As relational database management system.
 - **JUnit 5** - For testing design pattern implementations.
 - **Lombok** - For reducing boilerplate code.
 
