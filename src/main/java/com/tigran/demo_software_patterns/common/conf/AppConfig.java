@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.conf.common;
+package com.tigran.demo_software_patterns.common.conf;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;

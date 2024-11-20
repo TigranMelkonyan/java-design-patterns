@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.architectural.eventdriven.domain.base;
+package com.tigran.demo_software_patterns.common.model.base;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

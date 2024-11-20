@@ -1,7 +1,7 @@
-package com.tigran.demo_software_patterns.architectural.eventdriven.domain.entity.audit;
+package com.tigran.demo_software_patterns.common.model.audit;
 
-import com.tigran.demo_software_patterns.architectural.eventdriven.domain.base.AbstractDomainEntity;
-import com.tigran.demo_software_patterns.architectural.eventdriven.domain.model.audit.ModelStatus;
+import com.tigran.demo_software_patterns.common.model.base.AbstractDomainEntity;
+import com.tigran.demo_software_patterns.common.model.base.ModelStatus;
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.EnumType;

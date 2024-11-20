@@ -1,9 +1,10 @@
 package com.tigran.demo_software_patterns.architectural.hexagonal.application.service;
 
-import com.tigran.demo_software_patterns.architectural.hexagonal.domain.model.account.Account;
+import com.tigran.demo_software_patterns.architectural.hexagonal.domain.model.entity.Account;
 import com.tigran.demo_software_patterns.architectural.hexagonal.domain.port.in.AccountUseCase;
 import com.tigran.demo_software_patterns.architectural.hexagonal.domain.port.out.AccountRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -23,6 +24,7 @@ public class AccountService implements AccountUseCase {
     }
 
     @Override
+    @Transactional
     public void deposit(UUID accountId, BigDecimal amount) {
         Account account = accountRepository.findById(accountId)
                 .orElseThrow(() -> new IllegalArgumentException("Account not found."));
@@ -31,6 +33,7 @@ public class AccountService implements AccountUseCase {
     }
 
     @Override
+    @Transactional
     public void withdraw(UUID accountId, BigDecimal amount) {
         Account account = accountRepository.findById(accountId)
                 .orElseThrow(() -> new IllegalArgumentException("Account not found."));

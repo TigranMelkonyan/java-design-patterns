@@ -1,6 +1,6 @@
 package com.tigran.demo_software_patterns.architectural.eventdriven.domain.entity;
 
-import com.tigran.demo_software_patterns.architectural.eventdriven.domain.entity.audit.AuditableBaseEntity;
+import com.tigran.demo_software_patterns.common.model.audit.AuditableBaseEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.architectural.eventdriven.domain.model.audit;
+package com.tigran.demo_software_patterns.common.model.base;
 
 /**
  * Created by Tigran Melkonyan

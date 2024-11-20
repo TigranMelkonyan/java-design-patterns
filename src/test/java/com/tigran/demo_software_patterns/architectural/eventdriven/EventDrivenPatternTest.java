@@ -1,8 +1,8 @@
 package com.tigran.demo_software_patterns.architectural.eventdriven;
 
-import com.tigran.demo_software_patterns.architectural.eventdriven.domain.model.audit.order.Order;
+import com.tigran.demo_software_patterns.architectural.eventdriven.domain.model.Order;
 import com.tigran.demo_software_patterns.architectural.eventdriven.repository.EventStoreRepository;
-import com.tigran.demo_software_patterns.architectural.eventdriven.service.OrderService;
+import com.tigran.demo_software_patterns.architectural.eventdriven.service.impl.OrderServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,7 +13,7 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 class EventDrivenPatternTest {
 
     @Autowired
-    private OrderService orderService;
+    private OrderServiceImpl orderService;
 
     @Autowired
     private EventStoreRepository eventRepository;

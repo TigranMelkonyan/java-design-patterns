@@ -1,6 +1,6 @@
 package com.tigran.demo_software_patterns.architectural.hexagonal.domain.port.out;
 
-import com.tigran.demo_software_patterns.architectural.hexagonal.domain.model.account.Account;
+import com.tigran.demo_software_patterns.architectural.hexagonal.domain.model.entity.Account;
 
 import java.util.Optional;
 import java.util.UUID;

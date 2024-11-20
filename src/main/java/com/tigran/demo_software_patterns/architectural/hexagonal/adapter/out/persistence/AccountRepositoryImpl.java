@@ -1,6 +1,6 @@
 package com.tigran.demo_software_patterns.architectural.hexagonal.adapter.out.persistence;
 
-import com.tigran.demo_software_patterns.architectural.hexagonal.domain.model.account.Account;
+import com.tigran.demo_software_patterns.architectural.hexagonal.domain.model.entity.Account;
 import com.tigran.demo_software_patterns.architectural.hexagonal.domain.port.out.AccountRepository;
 import org.springframework.stereotype.Component;
 

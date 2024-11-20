@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.architectural.eventdriven.domain.model.audit.order;
+package com.tigran.demo_software_patterns.architectural.eventdriven.domain.model;
 
 import com.tigran.demo_software_patterns.architectural.eventdriven.event.common.Event;
 import com.tigran.demo_software_patterns.architectural.eventdriven.event.order.OrderCancelledEvent;

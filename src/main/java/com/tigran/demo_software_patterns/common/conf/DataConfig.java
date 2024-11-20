@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.conf.common;
+package com.tigran.demo_software_patterns.common.conf;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;
