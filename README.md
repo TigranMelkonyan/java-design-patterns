@@ -6,6 +6,7 @@ This project demonstrates various design patterns written in Java.
 
 - **Architectural Patterns**
     - Event Sourcing
+    - Hexagonal
 
 ## Used Technologies
 
@@ -36,6 +37,7 @@ You need to follow up some steps before you can run the tests`
 
 5. Run tests
    [./mvnw test]
-
+or run separately
+   [./mvnw test -Dtest"TestClassName"]
 
 
