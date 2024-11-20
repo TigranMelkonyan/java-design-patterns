@@ -7,9 +7,10 @@ This project demonstrates various design patterns written in Java.
 - **Architectural Patterns**
     - Event Sourcing
     - Hexagonal
+    - Layered
 
 ## Used Technologies
-
+    
 - **Java 21** - The primary programming language.
 - **Spring Boot 3.3.5** - For dependency management, configuration, and application setup.
 - **Maven** - For project build and dependency management.
@@ -23,7 +24,7 @@ This project demonstrates various design patterns written in Java.
 You need to follow up some steps before you can run the tests`
 
 1. Clone the repository:`
-   git clone git@github.com:TigranMelkonyan/java-design-patterns.git
+   git clone [git@github.com:TigranMelkonyan/java-design-patterns.git]()
 
 2. Set up JDK 21
 
@@ -33,11 +34,11 @@ You need to follow up some steps before you can run the tests`
    spring.datasource.password=your_database_password]
 
 4. Build the project using maven
-   [./mvnw clean install]
+   [./mvn clean install]
 
 5. Run tests
-   [./mvnw test]
-or run separately
-   [./mvnw test -Dtest"TestClassName"]
+   [./mvn test]
+   or run separately
+   [./mvn test -Dtest"TestClassName"]
 
 
