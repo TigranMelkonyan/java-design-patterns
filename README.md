@@ -8,6 +8,7 @@ This project demonstrates various design patterns written in Java.
     - Event Sourcing
     - Hexagonal
     - Layered
+    - CQRS
 
 ## Used Technologies
     
