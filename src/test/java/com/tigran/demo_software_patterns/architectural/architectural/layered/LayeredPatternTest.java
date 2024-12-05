@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.architectural.layered;
+package com.tigran.demo_software_patterns.architectural.architectural.layered;
 
 import com.tigran.demo_software_patterns.architectural.layered.model.entity.Book;
 import com.tigran.demo_software_patterns.architectural.layered.repository.BookRepository;

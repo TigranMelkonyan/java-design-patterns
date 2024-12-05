@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.architectural.eventdriven;
+package com.tigran.demo_software_patterns.architectural.architectural.eventdriven;
 
 import com.tigran.demo_software_patterns.architectural.eventdriven.domain.model.Order;
 import com.tigran.demo_software_patterns.architectural.eventdriven.repository.EventStoreRepository;

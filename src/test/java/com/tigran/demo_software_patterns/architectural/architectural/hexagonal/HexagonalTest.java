@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.architectural.hexagonal;
+package com.tigran.demo_software_patterns.architectural.architectural.hexagonal;
 
 import com.tigran.demo_software_patterns.architectural.hexagonal.domain.model.entity.Account;
 import com.tigran.demo_software_patterns.architectural.hexagonal.domain.port.out.AccountRepository;

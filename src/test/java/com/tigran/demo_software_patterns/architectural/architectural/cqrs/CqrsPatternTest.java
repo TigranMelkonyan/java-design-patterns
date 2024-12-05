@@ -1,4 +1,4 @@
-package com.tigran.demo_software_patterns.architectural.cqrs;
+package com.tigran.demo_software_patterns.architectural.architectural.cqrs;
 
 import com.tigran.demo_software_patterns.architectural.cqrs.command.dto.CreateProductCommand;
 import com.tigran.demo_software_patterns.architectural.cqrs.command.service.ProductCommandService;
