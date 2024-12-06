@@ -13,6 +13,9 @@ This project demonstrates various design patterns written in Java.
 - **Creation Patterns**
     - Abstract factory
     - Builder
+    - Factory method
+    - Prototype
+    - Singleton
 
 ## Used Technologies
 
