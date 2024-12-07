@@ -17,6 +17,23 @@ This project demonstrates various design patterns written in Java.
     - Prototype
     - Singleton
 
+- **Structural Patterns**
+    - Adapter
+    - Bridge
+    - Composite
+    - Decorator
+    - Flyweight
+    - Proxy
+
+- **Behavioural Patterns**
+    - Chain of Responsibilities
+    - Iterator
+    - Mediator
+    - Observer
+    - Strategy
+    - Command
+    - Visitor
+
 ## Used Technologies
 
 - **Java 21** - The primary programming language.
